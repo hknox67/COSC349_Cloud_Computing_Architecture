@@ -1,0 +1,172 @@
+[
+    {
+        "model" : "model.Card_colour",
+        "pk" : 1,
+        "fields": {
+            "name" : "Black",
+            "slug" : "black"
+    }
+},
+    {
+        "model" : "model.Card_colour",
+        "pk" : 2,
+        "fields": {
+            "name" : "Brown",
+            "slug" : "brown"
+    }
+},
+    {
+        "model" : "model.Card_colour",
+        "pk" : 3,        
+        "fields": {
+            "name" : "White",
+            "slug" : "white"
+    }
+},
+
+    {
+        "model" : "model.Card_supertype",
+        "pk" : 2,
+        "fields": {
+            "name" : "Terran",
+            "slug" : "terran"
+    }
+}, 
+    {
+        "model" : "model.Card_supertype",
+        "pk" : 3,   
+        "fields": {
+            "name" : "Support",
+            "slug" : "support"
+    }
+}, 
+    {
+        "model" : "model.Card_type",
+        "pk" : 1,       
+        "fields": {
+            "name" : "Monster",
+            "slug" : "monster"
+    }
+},
+
+    {
+        "model" : "model.Card_type",
+        "pk" : 2, 
+        "fields": {
+            "name" : "Support",
+            "slug" : "support"
+    }
+},
+
+    {
+        "model" : "model.Card_subtype",
+        "pk" : 1,
+        "fields": {
+            "name" : "Creature - wurm",
+            "slug" : "creature- wurm"
+    }
+},
+
+    {
+        "model" : "model.Card_subtype",
+        "pk" : 2,
+        "fields": {
+            "name" : "Creature - Angel",
+            "slug" : "creature - angel"
+    }
+},
+
+    {
+        "model" : "model.Card_subtype",
+        "pk" : 3,
+        "fields": {
+            "name" : "Creature - lotus",
+            "slug" : "creature - lotus"
+    }
+},
+
+    {
+        "model" : "model.Card_set",
+        "pk" : 1,
+        "fields": {
+            "code" : "ALP1",
+            "name" : "Alpha",
+            "slug" : "alpha"
+    }
+},
+
+{
+    "model" : "model.Card_set",
+    "pk" : 2,
+    "fields": {
+        "code" : "MLB2",
+        "name" : "Magic League Battle",
+        "slug" : "magic league battle"
+    }
+},
+    {
+        "model" : "model.Card",
+        "pk" : 1,
+        "fields" : {
+            "name" : "Autochthon Wurm",
+            "slug" : 5.1,
+            "price" : "656",
+            "description" : "Creature- Wurm: The trainer awoke to begin the journey from the wurks tail to its head. The sun was setting when she arrived.",
+            "image" : "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=89096&type=card",
+            "manaCost" : "10",
+            "cmc" : 4,
+            "artist" : "Artist Michael Phillippi",
+            "rarity" : "Rare",
+            "date_added" : "1/10/22",
+            "Card_colour" : [2],
+            "Card_supertype" : [2],
+            "Card_type" : [1],
+            "Cars_subtype" : [1],
+            "Card_set" : [2]
+    }
+}, 
+
+    {
+        "model" : "model.Card",
+        "pk" : 2,
+        "fields" : {
+            "name" : "Black Lotus",
+            "slug" : 1.0,
+            "price" : "1.2000000",
+            "description" : "A flower of beauty matched only by its perfect poison.",
+            "image" : "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=382866&type=card",
+            "manaCost" : "0",
+            "cmc" : 4,
+            "artist" : "Christopher Rush",
+            "rarity" : "Mythic Rare",
+            "date_added" : "1/10/22",
+            "Card_colour" : [1],
+            "Card_supertype" : [3],
+            "Card_type" : [2],
+            "Cars_subtype" : [3],
+            "Card_set" : [1]
+    }
+},
+
+    {
+        "model" : "model.Card",
+        "pk" : 2,
+        "fields" : {
+            "name" : "Archangel",
+            "slug" : 3.7,
+            "price" : "1200",
+            "description" : "My mother once told me angels sing their swords' names with each strike.",
+            "image" : "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3708&type=card",
+            "manaCost" : "7",
+            "cmc" : 2,
+            "artist" : "Christopher Rush",
+            "rarity" : "Super Rare",
+            "date_added" : "1/10/22",
+            "Card_colour" : [3],
+            "Card_supertype" : [1],
+            "Card_type" : [2],
+            "Cars_subtype" : [2],
+            "Card_set" : [1]
+    }
+}
+]

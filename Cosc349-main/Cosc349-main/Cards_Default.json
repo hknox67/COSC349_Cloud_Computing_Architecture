@@ -1,0 +1,38 @@
+[
+    {
+    "name" : "Autochthon Wurm",
+    "slug" : 5.1,
+    "price" : "656",
+    "description" : "Creature- Wurm: The trainer awoke to begin the journey from the wurks tail to its head. The sun was setting when she arrived.",
+    "image" : "",
+    "manaCost" : "10",
+    "cmc" : 4,
+    "artist" : "Artist Michael Phillippi",
+    "rarity" : "Rare",
+    "date_added" : "1/10/22"
+    }, 
+    {
+    "name" : "Black Lotus",
+    "slug" : 1.0,
+    "price" : "1.2000000",
+    "description" : "A flower of beauty matched only by its perfect poison.",
+    "image" : "",
+    "manaCost" : "0",
+    "cmc" : 4,
+    "artist" : "Christopher Rush",
+    "rarity" : "Mythic Rare",
+    "date_added" : "1/10/22"   
+    },
+    {
+    "name" : "Archangel",
+    "slug" : 3.7,
+    "price" : "1200",
+    "description" : "My mother once told me angels sing their swords' names with each strike.",
+    "image" : "",
+    "manaCost" : "7",
+    "cmc" : 2,
+    "artist" : "Christopher Rush",
+    "rarity" : "Super Rare",
+    "date_added" : "1/10/22"
+    }
+]
